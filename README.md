@@ -319,7 +319,6 @@ namespace DesktopClock.Views
 
         private void OnDoubleTap(object o, EventArgs args)
         {
-            //Console.WriteLine("Double Tap");
             MessagingCenter.Send(Application.Current, "OnDoubleTap");
             if (EnableOptions)
             {
