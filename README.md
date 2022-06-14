@@ -1,4 +1,4 @@
-# Android-Clock
+# Android Clock
 This is an android application which serves as a retro-styled customizable desktop clock. It is built using Microsoft's Xamerin C# framework.
 
 ## Code
@@ -14,7 +14,6 @@ using System.IO;
 
 namespace DesktopClock.ViewModels
 {
-
     class MainPageViewModel : INotifyPropertyChanged
     {
         public string TimeString { get => timeString; set { timeString = value; PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(TimeString))); } }
@@ -37,13 +36,6 @@ namespace DesktopClock.ViewModels
         public event PropertyChangedEventHandler PropertyChanged;
 
         const string saveFileName = "DesktopClockSettings";
-
-        public enum ColorMode
-        {
-            Solid,
-            Random,
-            Daily
-        }
 
         public MainPageViewModel()
         {
