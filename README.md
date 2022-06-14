@@ -1,5 +1,5 @@
 # Android Clock
-This is an android application which serves as a retro-styled customizable desktop clock. It is built using Microsoft's Xamerin C# framework. This application responds to device rotation and tap gestures. It also features haptic feedback.
+This is an android application which serves as a retro-styled customizable desktop clock. It is built using Microsoft's Xamarin C# framework. This application responds to device rotation and tap gestures. It also features haptic feedback.
 
 <img src="Images/AndroidClock1.png" width="200px"> <img src="Images/AndroidClock2.png" width="200px">
 
